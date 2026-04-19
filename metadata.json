@@ -1,0 +1,7 @@
+{
+  "name": "Smart Safar",
+  "description": "A smart public transport tracking application for Khujand.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Smart Safar",
+  "short_name": "Smart Safar",
+  "description": "Smart Safar - Your public transport companion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/transport/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/transport/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
