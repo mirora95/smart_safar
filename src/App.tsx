@@ -22,7 +22,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <LanguageProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/smart_safar/">
             <Routes>
               <Route path="/" element={<Splash />} />
               <Route path="/welcome" element={<Welcome />} />
