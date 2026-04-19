@@ -16,13 +16,16 @@ import DriverDashboard from './screens/DriverDashboard';
 import AdminDashboard from './screens/AdminDashboard';
 import AdminRegistration from './screens/AdminRegistration';
 import AdminLogin from './screens/AdminLogin';
+import { normalizeBasename } from './routerBasename.js';
+
+const routerBasename = normalizeBasename(import.meta.env.BASE_URL);
 
 export default function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
         <LanguageProvider>
-          <BrowserRouter basename="/smart_safar/">
+          <BrowserRouter basename={routerBasename}>
             <Routes>
               <Route path="/" element={<Splash />} />
               <Route path="/welcome" element={<Welcome />} />
